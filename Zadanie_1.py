@@ -41,8 +41,8 @@ plt.xticks(rotation=45)
 plt.grid(True, linestyle='--', alpha=0.3,zorder =1)
 plt.tight_layout()
 
-plt.savefig('Dynamika cen mleka w latach dla Polski.pdf', format='pdf')
 
+plt.show()
 # %%
 # odwzorowanie wykresu_1
 
@@ -72,7 +72,8 @@ plt.xticks(rotation=45)
 plt.grid(True, linestyle='--', alpha=0.3,zorder =1)
 plt.tight_layout()
 
-plt.savefig('Ruch na stronie internetowej.pdf', format='pdf')
+
+plt.show()
 
 # %%
 # odwzorowanie wykresu_2
@@ -99,4 +100,5 @@ ax.set_ylabel('Liczba pobrań (tysiące)')
 ax.set_title('Statystyki aplikacji mobilnej')
 ax.grid(True, alpha=0.3)
 
-plt.savefig ('Statystyki aplikacji mobilnej.pdf', format='pdf')
+
+plt.show()
