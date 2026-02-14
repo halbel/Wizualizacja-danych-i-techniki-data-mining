@@ -86,13 +86,5 @@ plt.show()
 # %%
 #Zad.2. Na bazie pliku oceny11.xlsx stwórz wykres słupkowy. 
 #Zadbaj o jego podpisanie i estetykę.
-x_3 = data['Rodzaje produktów'].str.split(' - ').str[0]
-y_3 = data['Wartosc']
 
-fig, ax = plt.subplots()
-ax.bar(x_3,y_3,color = 'violet', alpha = 0.5)
-ax.set_title('Wartość produktów według rodzaju')
-ax.set_xlable('Rodzaj produktu')
-ax.set_ylable('Wartość')
-plt.show()
 # %%
